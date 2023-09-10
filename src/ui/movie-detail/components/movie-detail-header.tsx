@@ -128,8 +128,6 @@ const styles = StyleSheet.create({
     color: description_color,
     fontSize: getResponsiveFontSize(15),
     fontWeight: '500',
-    borderBottomWidth: 1,
-    borderBottomColor: '#56FF',
   },
   viewSpace: {
     height: 1,

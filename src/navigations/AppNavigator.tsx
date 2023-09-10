@@ -10,7 +10,12 @@ const Stack = createStackNavigator<RootStackParamList>();
 export function AppNavigator() {
   return (
     <NavigationContainer>
-      <Stack.Navigator>
+      <Stack.Navigator screenOptions={{
+      headerStyle: {
+        backgroundColor: '#212121', // Set the background color to black
+      },
+      headerTintColor: 'white', // Set the text color to white
+    }}>
         <Stack.Screen
           options={{
             title: 'Pop Movies',
