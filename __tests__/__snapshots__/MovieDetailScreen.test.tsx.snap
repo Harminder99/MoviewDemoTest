@@ -162,8 +162,6 @@ exports[`MovieDetailHeader renders correctly 1`] = `
   <Text
     style={
       Object {
-        "borderBottomColor": "#56FF",
-        "borderBottomWidth": 1,
         "color": "#757575",
         "fontSize": 15,
         "fontWeight": "500",
