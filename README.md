@@ -16,14 +16,6 @@ This project combines the power of React Native with TypeScript to create a user
 Sure, here's a directory tree structure for the specified file 
 ##### Movies/src/apis/api-constants.ts:
 
-Movies
-│
-└── src
-    │
-    └── apis
-        │
-        └── api-constants.ts
-
 ### Some basic points about app
 
 ### Why I Chose TypeScript:
