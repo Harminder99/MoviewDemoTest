@@ -1,0 +1,188 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MovieDetailHeader renders correctly 1`] = `
+<View>
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "overflow": "hidden",
+          },
+          Object {
+            "flex": 0.4,
+            "height": 375,
+          },
+        ]
+      }
+    >
+      <FastImageView
+        defaultSource={null}
+        resizeMode="cover"
+        source={
+          Object {
+            "uri": "https://image.tmdb.org/t/p/w300//test-poster.jpg",
+          }
+        }
+        style={
+          Object {
+            "bottom": 0,
+            "left": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+          }
+        }
+        testID="movie-poster"
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "flex": 0.8,
+          "paddingLeft": 20,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "fontSize": 18,
+            "fontWeight": "500",
+          }
+        }
+        testID="vote-count"
+      >
+        Votes: 
+        100
+      </Text>
+      <Text
+        style={
+          Object {
+            "fontSize": 13,
+            "fontWeight": "400",
+            "marginTop": 5,
+          }
+        }
+      >
+        Avg.: 
+        0
+        /10
+      </Text>
+      <Text
+        style={
+          Object {
+            "fontSize": 13,
+            "fontWeight": "400",
+            "marginTop": 5,
+          }
+        }
+      >
+        Release: 
+      </Text>
+      <View
+        style={
+          Object {
+            "bottom": 0,
+            "left": 20,
+            "position": "absolute",
+            "width": "100%",
+          }
+        }
+      >
+        <View
+          accessible={true}
+          collapsable={false}
+          focusable={false}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#746A64",
+              "justifyContent": "center",
+              "marginTop": 10,
+              "opacity": 1,
+              "padding": 15,
+              "width": "100%",
+            }
+          }
+          testID="add-to-favorites-button"
+        >
+          <Text
+            style={
+              Object {
+                "color": "#FFFF",
+                "fontSize": 15,
+                "fontWeight": "500",
+              }
+            }
+          >
+            Add to Favorites
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "marginTop": 20,
+        },
+      ]
+    }
+    testID="movie-description"
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#757575",
+            "fontSize": 14,
+            "fontWeight": "500",
+          },
+        ]
+      }
+    >
+      Test Movie Description
+    </Text>
+  </View>
+  <Text
+    style={
+      Object {
+        "borderBottomColor": "#56FF",
+        "borderBottomWidth": 1,
+        "color": "#757575",
+        "fontSize": 15,
+        "fontWeight": "500",
+        "marginTop": 20,
+      }
+    }
+    testID="trailers-section-title"
+  >
+    TRAILERS
+  </Text>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#dbdbdb",
+        "height": 1,
+        "marginVertical": 2,
+        "width": "100%",
+      }
+    }
+  />
+</View>
+`;
